@@ -17,3 +17,29 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+
+main {
+  padding: 1rem;
+}
+
+.Products {
+  display: flex;
+  /* gap: 3rem; */
+  flex: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #404040;
+  margin: 1rem;
+
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info {
+  padding: 1rem;
+}
